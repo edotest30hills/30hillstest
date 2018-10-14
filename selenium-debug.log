@@ -1,0 +1,140 @@
+21:40:39.699 INFO - Selenium build info: version: '3.6.0', revision: '6fbf3ec767'
+21:40:39.700 INFO - Launching a standalone Selenium Server
+2018-10-14 21:40:39.719:INFO::main: Logging initialized @250ms to org.seleniumhq.jetty9.util.log.StdErrLog
+21:40:39.775 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+21:40:39.805 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+21:40:39.805 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+21:40:39.805 INFO - Driver provider class org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+21:40:39.831 INFO - Using the passthrough mode handler
+2018-10-14 21:40:39.856:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+2018-10-14 21:40:39.882:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@2b2948e2{/,null,STARTING} has uncovered http methods for path: /
+2018-10-14 21:40:39.888:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@2b2948e2{/,null,AVAILABLE}
+2018-10-14 21:40:39.904:INFO:osjs.AbstractConnector:main: Started ServerConnector@5a8806ef{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2018-10-14 21:40:39.905:INFO:osjs.Server:main: Started @436ms
+21:40:39.905 INFO - Selenium Server is up and running
+2018-10-14 21:40:40.057:INFO:osjshC.ROOT:qtp758529971-11: org.openqa.selenium.remote.server.WebDriverServlet-4501b7af: Initialising WebDriverServlet
+21:40:40.097 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
+21:40:40.098 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@49cc9aa5
+21:40:40.101 INFO - /session: Executing POST on /session (handler: BeginSession)
+21:40:40.147 INFO - Capabilities are: Capabilities {acceptSslCerts=true, marionette=true, name=Test1, browserName=firefox, javascriptEnabled=true, platformName=ANY, platform=ANY, }
+21:40:40.148 INFO - Capabilities {acceptSslCerts=true, marionette=true, name=Test1, browserName=firefox, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+21:40:40.149 INFO - Capabilities {acceptSslCerts=true, marionette=true, name=Test1, browserName=firefox, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+1539546040534	webdriver::command	WARN	You are using deprecated legacy session negotiation patterns (desiredCapabilities/requiredCapabilities), see https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities#Legacy
+1539546040536	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XqZWL7lSqSX5"
+
+(firefox:27289): Gtk-WARNING **: 21:40:41.232: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:27289): Gtk-WARNING **: 21:40:41.232: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1539546042349	Marionette	INFO	Listening on port 38897
+1539546042493	Marionette	DEBUG	[2147483649] Frame script loaded
+1539546042495	Marionette	DEBUG	[2147483649] Frame script registered
+21:40:42.580 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:42.584 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing POST on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/url (handler: ServicedSession)
+1539546042597	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539546043575	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539546044216	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin
+1539546044423	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1539546044426	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1539546044566	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin
+21:40:44.576 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:44.582 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing POST on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/elements (handler: ServicedSession)
+21:40:44.601 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:44.601 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing GET on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/element/f03634e8-10a0-4131-8b27-70cac7966bc1/displayed (handler: ServicedSession)
+21:40:44.646 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:44.646 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing POST on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/element (handler: ServicedSession)
+21:40:44.656 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:44.656 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing POST on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/element/ccc5d81c-f935-4fe8-a48e-d08f19c2ac62/value (handler: ServicedSession)
+21:40:44.860 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:44.860 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing POST on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/element (handler: ServicedSession)
+21:40:44.870 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:44.871 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing POST on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/element/23656299-7656-4aa8-91d6-b2023a3ec012/click (handler: ServicedSession)
+1539546045136	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+21:40:45.142 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:45.143 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing POST on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/elements (handler: ServicedSession)
+21:40:45.155 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:45.155 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing GET on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/element/21e5bb8e-85ca-4439-a245-97a87b84e941/displayed (handler: ServicedSession)
+
+(/usr/lib/firefox/firefox:27376): dconf-WARNING **: 21:40:45.787: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+21:40:45.850 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:45.851 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing GET on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/element/21e5bb8e-85ca-4439-a245-97a87b84e941/displayed (handler: ServicedSession)
+21:40:45.937 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:45.937 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing POST on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/element (handler: ServicedSession)
+21:40:45.952 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:45.953 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing POST on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/element/21e5bb8e-85ca-4439-a245-97a87b84e941/value (handler: ServicedSession)
+21:40:46.090 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:46.090 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing POST on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/element (handler: ServicedSession)
+21:40:46.104 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:46.104 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing POST on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be/element/3ba0a874-9aed-460c-abfc-820bce4e322b/click (handler: ServicedSession)
+1539546046124	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://accounts.google.com/signin/v2/sl/pwd?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail ... scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=1&navigationDirection=forward
+1539546046516	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://accounts.google.com/signin/v2/sl/pwd?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail ... scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=1&navigationDirection=forward
+1539546047209	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://accounts.google.com/signin/v2/sl/pwd?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail ... scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=1&navigationDirection=forward
+1539546047212	Marionette	DEBUG	[2147483649] Received DOM event unload for https://accounts.google.com/signin/v2/sl/pwd?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail ... scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=1&navigationDirection=forward
+1539546047342	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1539546047788	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://mail.google.com/mail/
+1539546050820	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1539546052426	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1539546053553	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483680
+1539546053926	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483686
+1539546055451	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://mail.google.com/mail/#inbox
+21:40:55.457 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:55.458 INFO - Handler thread for session e06f4f91-0282-48ab-9de9-54cc0d6801be (firefox): Executing DELETE on /session/e06f4f91-0282-48ab-9de9-54cc0d6801be (handler: ServicedSession)
+1539546055468	Marionette	INFO	Stopped listening on port 38897
+JavaScript error: https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.sr.d8iKKMKBIv0.O/am=_j8hw3hA_H2fg0E4byMEOHhgKIoBsP8zgjwq-6a_MSEAUZbAkT88_m_j6_f_j3QzAAAAAAAAAAAAAAAAAAAAuAINtA/rt=j/d=1/im=1/dg=0/rs=AHGWq9BkP3j6aEhJLsyVhvaU2zqnX7Z5bA/m=sps,spl,spit,m_i,spt,t,it, line 252: NS_ERROR_NOT_INITIALIZED: 
+[Child 27376, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 27376, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 27376, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 27376, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+21:40:56.303 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@7af63f1
+21:40:56.306 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
+21:40:56.306 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@204cebd4
+21:40:56.306 INFO - /session: Executing POST on /session (handler: BeginSession)
+21:40:56.307 INFO - Capabilities are: Capabilities {acceptSslCerts=true, marionette=true, name=Test1, browserName=firefox, javascriptEnabled=true, platformName=ANY, platform=ANY, }
+21:40:56.307 INFO - Capabilities {acceptSslCerts=true, marionette=true, name=Test1, browserName=firefox, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+21:40:56.307 INFO - Capabilities {acceptSslCerts=true, marionette=true, name=Test1, browserName=firefox, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+1539546056329	webdriver::command	WARN	You are using deprecated legacy session negotiation patterns (desiredCapabilities/requiredCapabilities), see https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities#Legacy
+1539546056331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.psS24VysPKDB"
+
+(firefox:27499): Gtk-WARNING **: 21:40:57.047: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:27499): Gtk-WARNING **: 21:40:57.047: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1539546058125	Marionette	INFO	Listening on port 33333
+1539546058202	Marionette	DEBUG	[2147483649] Frame script loaded
+1539546058208	Marionette	DEBUG	[2147483649] Frame script registered
+21:40:58.225 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4d5e8bfe
+21:40:58.226 INFO - Handler thread for session 6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c (firefox): Executing POST on /session/6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c/url (handler: ServicedSession)
+1539546058237	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539546058878	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539546059350	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.facebook.com/
+1539546059962	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.facebook.com/
+21:40:59.968 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4d5e8bfe
+21:40:59.968 INFO - Handler thread for session 6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c (firefox): Executing POST on /session/6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c/elements (handler: ServicedSession)
+21:40:59.994 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4d5e8bfe
+21:40:59.995 INFO - Handler thread for session 6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c (firefox): Executing GET on /session/6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c/element/59b03be5-8939-4150-925f-bc4f8a152c86/displayed (handler: ServicedSession)
+21:41:00.048 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4d5e8bfe
+21:41:00.049 INFO - Handler thread for session 6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c (firefox): Executing POST on /session/6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c/element (handler: ServicedSession)
+21:41:00.068 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4d5e8bfe
+21:41:00.070 INFO - Handler thread for session 6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c (firefox): Executing POST on /session/6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c/element/6dcb4669-7da1-4e79-b7e1-6e3e030a80ac/value (handler: ServicedSession)
+21:41:00.180 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4d5e8bfe
+21:41:00.181 INFO - Handler thread for session 6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c (firefox): Executing POST on /session/6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c/element (handler: ServicedSession)
+21:41:00.203 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4d5e8bfe
+21:41:00.203 INFO - Handler thread for session 6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c (firefox): Executing POST on /session/6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c/element/65bf586f-1e66-4192-baea-d428c7427f8a/value (handler: ServicedSession)
+21:41:00.268 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4d5e8bfe
+21:41:00.271 INFO - Handler thread for session 6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c (firefox): Executing POST on /session/6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c/element (handler: ServicedSession)
+21:41:00.294 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4d5e8bfe
+21:41:00.295 INFO - Handler thread for session 6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c (firefox): Executing POST on /session/6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c/element/a5ef6245-f46f-405c-81fa-935632258f67/click (handler: ServicedSession)
+1539546060368	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.facebook.com/
+1539546062065	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.facebook.com/
+1539546062089	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.facebook.com/
+1539546062300	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+1539546062304	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1539546062304	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+
+(/usr/lib/firefox/firefox:27590): dconf-WARNING **: 21:41:02.391: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1539546062777	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110
+21:41:02.783 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@4d5e8bfe
+21:41:02.784 INFO - Handler thread for session 6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c (firefox): Executing DELETE on /session/6bf3b5c9-930f-46d7-af0b-c9c7730e7f5c (handler: ServicedSession)
+1539546062788	Marionette	INFO	Stopped listening on port 33333
+21:41:03.283 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@4d5e8bfe
